@@ -1,0 +1,45 @@
+bubble sort 
+selection sort 
+insertion sort 
+merge sort 
+quick sort 
+heap sort 
+shell sort 
+bucket sort 
+radix sort 
+#------------------------
+singly linked list 
+doubly linked list 
+singly circular linked list 
+doubly circular linked list 
+#----------------------------
+stack 
+queue 
+deque 
+hash queue 
+priority queue 
+#-------------------------------------------------------------------
+binary search tree (with all algorithms) 
+graph -> graph management, dfs, bfs, dijisktra shortest path,
+bellman ford shortest path, minimum spanning tree -> prims kruskal 
+#---------------------------------------------------------------------
+rb tree, avl tree
+#----------------------------------------------------------------------
+dynamic programming -> fibonacci, rod cutting, (some more leading 
+problems), longest common subsequence, matrix chain multiplication, 
+optimal binary search tree, (some other advanced problems)
+#-----------------------------------------------------------------------
+B/B+ tree
+Binomial heap 
+Fibonacci heap 
+#----------------------------------------------------------------------------
+Priority queue based on heap 
+map dsa 
+#------------------------------------------------------------------------------
+Text Processing Algorithms 
+Pattern Matching using KNUTH - MORRIS - PRATT 
+#-------------------------------------------------------------------------------
+
+
+
+

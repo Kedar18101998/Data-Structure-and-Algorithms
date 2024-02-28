@@ -1,0 +1,35 @@
+Pre-requisite: 
+    1) Nature of the problem should be an optimization of dependent entity which 
+    linearly depends on independent variables and determination of values of 
+    independent entities for which dependent exhibits the optimized value. 
+
+    2) The equation which governs the dependency should be a recursive 
+    equation containing overlapping subproblems. 
+
+    3) The problem should have an optimal substructure that is optimal solution 
+    of a problem should involve computation of optimal solution to its subproblems. 
+
+Methodology: 
+    1)  From verbal statement of a problem determine the recursive equation 
+        which governs the relation between the dependent and independent variable. 
+        [dependency must be linear]
+
+    2)  Assuming that the equation in 1) contains overlapping subproblems, design a 
+        memo to efficiently compute a recursion. Bottoms up computation can be useful 
+        in most cases (as problems have optimal substructure). Optimal substructure allow 
+        us to combine optimal solution to smaller problems into optimal solution to larger 
+        once. 
+
+    3)  If you are not only interested in optimal value of the dependent variable but also 
+        in the values of independent variables for which the dependent exhibits the optimal 
+        value, you must design anoter memo and record the values of independent variables 
+        at the same time optimal value for the dependent is being computed. 
+
+    4)  Return value of algorithm are the filled versions of both memos. If solution memo 
+        is not taken because you are not interested in the values of independent variables 
+        for which dependent variable exhibits an optimal value then return value is the memo 
+        used to make recursion efficient. 
+
+    5)  The caller examines one or arrays and prints optimal value for dependent variable 
+        and optionally values of independent variables for which dependent has exhibited the 
+        optimal value. 
