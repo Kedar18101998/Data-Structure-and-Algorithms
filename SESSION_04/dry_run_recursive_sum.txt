@@ -1,0 +1,24 @@
+    ssize_t recursive_sum(int* pa, ssize_t i)
+    {
+        if(i == -1)
+            return (0); 
+        return pa[i] + recursive_sum(pa, i-1); 
+    }
+    
+    Let size of array be 5. Therefore, N-1 == 4
+
+    recursive_sum(pa, 4)
+
+    return pa[4] + recursive_sum(pa, 3) 
+    
+    return pa[4] + pa[3] + recursive_sum(pa, 2)
+    
+    return pa[4] + pa[3] + pa[2] + recursive_sum(pa, 1)
+
+    return pa[4] + pa[3] + pa[2] + pa[1] + recursive_sum(pa, 0)
+
+    return pa[4] + pa[3] + pa[2] + pa[1] + pa[0] + recursive_sum(pa, -1)
+
+    return pa[4] + pa[3] + pa[2] + pa[1] + pa[0] + 0 
+
+    recursive_sum(a, 4); 

@@ -1,0 +1,64 @@
+Def: DATA STRUCTURE: 
+    Data structure is a set of rules which specify 
+    how multiple anonymous instances of any data type 
+    T should be stored in address space of program so that 
+    all instances remain accessible from fixed number of 
+    (typically one) variable name. 
+#--------------------------------------------------------------
+Programming languages and implementation of data structure: 
+
+1) C Language: 
+    Collection-> 
+        A)  Built in types instances 
+        B)  User defined data type instances 
+            struct T 
+            {
+
+            }; 
+            struct -> Information structure
+        C)  Collection -> Data Structure Property 
+            You need to select data structure 
+            Array (exception)
+            Built in Data Type* = malloc(N * sizeof(Built in Data Type)); 
+            
+            int* p = malloc(10 * sizeof(int)); 
+            struct T* p = malloc(N * sizeof(struct T)); 
+        
+            Linked Data Structure: 
+            struct Data_Structure_Type
+            {
+                struct Data_Structure_Type* p; 
+            }; 
+
+2) C++ Language: 
+     Collection-> 
+        A)  Built in types instances 
+        
+        B)  User defined data type instances 
+            class T 
+            {
+
+            }; 
+            class -> Concrete Data Type 
+        
+        C)  Built in or user defined Concrete Data Type 
+            Collection with data structure property 
+
+            Generic Data Type 
+
+            template <typename T> 
+            class Data_Strucutre_Type
+            {
+                private: 
+
+                public: 
+
+            }; 
+
+        D) Client Server Separation 
+            Abstract Data Type 
+                Pure Function 
+                virtual 
+#-------------------------------------------------------
+
+

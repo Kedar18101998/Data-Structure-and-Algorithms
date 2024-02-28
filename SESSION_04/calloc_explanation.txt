@@ -1,0 +1,16 @@
+struct vector* create_vector(void)
+{
+    struct vector* p_vector = NULL; 
+
+    p_vector = (struct vector*)malloc(sizeof(struct vector)); 
+    if(p_vector == NULL)
+    {
+        fprintf(stderr, "malloc():fatal:out of memory\n"); 
+        exit(EXIT_FAILURE); 
+    }
+
+    p_vector->p_arr = NULL; 
+    p_vector->N = 0; 
+
+    return (p_vector); 
+}
